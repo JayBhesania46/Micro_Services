@@ -1,0 +1,58 @@
+body {
+  background: #fefefe;
+  font-family: Georgia, Georgia, "Times New Roman", Georgia, Georgia;
+  font-size: 15pt;
+}
+
+main {
+  max-width: 50%;
+  margin: auto;
+}
+
+header {
+  border-bottom: 2px solid #afafaf;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #546;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.75rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 2.25rem;
+}
+
+h5 {
+  font-size: 2.15rem;
+}
+
+h6 {
+  font-size: 2.05rem;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 4;
+}
+
+.post {
+  width: 50%;
+  border-bottom: 2px dashed #546;
+}

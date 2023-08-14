@@ -1,0 +1,20 @@
+{{!--
+
+login form handlebar template
+
+--}}
+
+<h1>Login</h1>
+<form action="/login" method="POST" id="login-form"> 
+
+  <label for="email">email:</label>
+  <input type="email" id="email" name="emailAddress" required>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+
+  <button type="submit">Login</button>
+  
+</form>
+<a href="/register">If you do not have an account?</a>
+<script src="/public/js/lab10.js"></script>
